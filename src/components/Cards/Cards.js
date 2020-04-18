@@ -20,7 +20,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         >
           <CardContent>
             <Typography color='textSecondary' gutterBottom>
-              Infected
+              <strong>Infected</strong>
             </Typography>
             <Typography variant='h5' gutterBottom>
               <CountUp
@@ -34,9 +34,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {' '}
               {new Date(lastUpdate).toDateString()}
             </Typography>
-            <Typography variant='body2'>
-              No of active cases of covid 19
-            </Typography>
+            <Typography variant='body2'>No. of Active cases</Typography>
           </CardContent>
         </Grid>
         <Grid
@@ -48,7 +46,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         >
           <CardContent>
             <Typography color='textSecondary' gutterBottom>
-              Recovered
+              <strong>Recovered</strong>
             </Typography>
             <Typography variant='h5' gutterBottom>
               <CountUp
@@ -62,7 +60,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {' '}
               {new Date(lastUpdate).toDateString()}
             </Typography>
-            <Typography variant='body2'>No of recoveries</Typography>
+            <Typography variant='body2'>Total Recovered</Typography>
           </CardContent>
         </Grid>
         <Grid
@@ -74,7 +72,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         >
           <CardContent>
             <Typography color='textSecondary' gutterBottom>
-              Deaths
+              <strong>Deaths</strong>
             </Typography>
             <Typography variant='h5' gutterBottom>
               <CountUp
@@ -87,7 +85,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color='textSecondary'>
               {new Date(lastUpdate).toDateString()}
             </Typography>
-            <Typography variant='body2'>No of death of covid 19</Typography>
+            <Typography variant='body2'> Total deaths</Typography>
           </CardContent>
         </Grid>
       </Grid>
