@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import { Chart, Cards, CountryPicker, NavBar } from './components';
 import styles from './App.module.css';
 import { fetchData } from './api';
-import corona from './images/corona.png';
 import corona1 from './images/corona1.png';
 class App extends Component {
   state = {

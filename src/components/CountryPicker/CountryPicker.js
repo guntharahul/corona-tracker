@@ -14,7 +14,7 @@ const CountryPicker = ({ handleCountryChange }) => {
   // console.log(fetchedCountries);
   return (
     <Fragment>
-      <h1>For more information please select different country</h1>
+      <h1>For more information please select a country</h1>
       <FormControl className={styles.formControl}>
         <NativeSelect
           defaultValue=''

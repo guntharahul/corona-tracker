@@ -1,5 +1,4 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, IconButton } from '@material-ui/core';
 import styles from './NavBar.module.css';
 
 const NavBar = () => {
