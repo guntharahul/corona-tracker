@@ -11,6 +11,7 @@ const NavBar = () => {
               COVID-19
             </a>
           </li>
+
         </ul>
       </div>
     </nav>
